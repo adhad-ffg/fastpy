@@ -1,16 +1,16 @@
 <p align="center">
-  <img src="https://vercel.app" alt="fastpy header" />
+  <img src="https://via.placeholder.com/800x200.png?text=fastpy" alt="fastpy header" />
 </p>
 
 <p align="center">
-  <a href="https://github.com">
-    <img src="https://shields.io" alt="License">
+  <a href="https://github.com/adhad-ffg/fastpy/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/adhad-ffg/fastpy" alt="License">
   </a>
-  <a href="https://github.com">
-    <img src="https://shields.io" alt="Stars">
+  <a href="https://github.com/adhad-ffg/fastpy/stargazers">
+    <image src="https://img.shields.io/github/stars/adhad-ffg/fastpy" alt="Stars">
   </a>
-  <a href="https://github.com">
-    <img src="https://shields.io" alt="Issues">
+  <a href="https://github.com/adhad-ffg/fastpy/issues">
+    <img src="https://img.shields.io/github/issues/adhad-ffg/fastpy" alt="Issues">
   </a>
 </p>
 
@@ -33,13 +33,14 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com
+git clone [https://github.com/your-username/fastpy.git](https://github.com/your-username/fastpy.git)
 
 # Navigate to the directory
 cd fastpy
 
-# Install dependencies
+# Install dependencies and package
 pip install .
+
 ```
 
 ---
@@ -51,6 +52,7 @@ pip install .
 import fastpy
 
 # Your insanely fast code here
+
 ```
 
 > [!NOTE]
@@ -63,4 +65,4 @@ import fastpy
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License]
