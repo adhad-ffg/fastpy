@@ -1,1 +1,1 @@
-
+"""Fastpy's test package."""
