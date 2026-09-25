@@ -1,22 +1,22 @@
-<p align="center">
-  <img src="https://via.placeholder.com/800x200.png?text=fastpy" alt="fastpy header" />
-</p>
+<div align="center">
+  <img src="https://img.shields.io/badge/fastpy-Insanely%20Fast-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=FFD43B" alt="fastpy header" height="90" />
+</div>
 
-<p align="center">
+<div align="center">
   <a href="https://github.com/adhad-ffg/fastpy/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/adhad-ffg/fastpy" alt="License">
+    <img src="https://img.shields.io/github/license/adhad-ffg/fastpy" alt="License" />
   </a>
   <a href="https://github.com/adhad-ffg/fastpy/stargazers">
-    <image src="https://img.shields.io/github/stars/adhad-ffg/fastpy" alt="Stars">
+    <img src="https://img.shields.io/github/stars/adhad-ffg/fastpy" alt="Stars" />
   </a>
   <a href="https://github.com/adhad-ffg/fastpy/issues">
-    <img src="https://img.shields.io/github/issues/adhad-ffg/fastpy" alt="Issues">
+    <img src="https://img.shields.io/github/issues/adhad-ffg/fastpy" alt="Issues" />
   </a>
-</p>
+</div>
 
-<p align="center">
+<h3 align="center">
   <strong>Scripts to Make Python "Insanely Fast"</strong>
-</p>
+</h3>
 
 ---
 
