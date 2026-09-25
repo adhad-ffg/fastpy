@@ -33,7 +33,7 @@
 
 ```bash
 # Clone the repository
-git clone [https://github.com/your-username/fastpy.git](https://github.com/your-username/fastpy.git)
+git clone [https://github.com/adhad-ffg/fastpy.git](https://github.com/adhad-ffg/fastpy.git)
 
 # Navigate to the directory
 cd fastpy
