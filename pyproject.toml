@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fastpy"
+version = "0.1.0"
+authors = [
+  { name = "fastpy Developer", email = "dev@fastpy.example" }
+]
+description = "Python implementation that emphasizes high speed, light weight, and compatibility"
+readme = "README.md"
+license = { file = "LICENSE" }
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: C",
+  "Topic :: Software Development :: Interpreters",
+]
+keywords = ["python", "interpreter", "fast", "lightweight"]
+dependencies = []
+requires-python = ">=3.10"
+
+[project.urls]
+Homepage = "https://github.com/adhad-ffg/fastpy"
+Repository = "https://github.com/adhad-ffg/fastpy"
+
+[project.scripts]
+fastpy = "fastpy.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools]
+ext-modules = [
+  { name = "fastpy.core.fastcore", sources = ["src/fastpy/core/fastcore.c"] }
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
